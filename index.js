@@ -9,7 +9,7 @@ const ObjectId = require('mongodb').ObjectId
 app.use(cors())
 app.use(express.json())
 app.get('/', (req, res) => {
-    res.send('This is the server of cycleMart')
+    res.send('welcome to server of bookbd')
 })
 
 app.listen(port, () => {
